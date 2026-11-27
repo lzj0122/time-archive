@@ -1,0 +1,75 @@
+{
+  "id": "1964",
+  "year": 1964,
+  "title": "原子弹",
+  "subtitle": "争气",
+  "summary": "在艰苦条件下，科研人员、解放军指战员和广大建设者协同攻关。中国第一颗原子弹爆炸成功，展现了自力更生的奋斗力量。",
+  "location": { "name": "罗布泊", "lng": 90.2624, "lat": 40.4621 },
+  "facts": [
+    { "text": "1964 年 10 月 16 日，中国第一颗原子弹在罗布泊爆炸成功。", "sourceId": "S1" },
+    { "text": "核武器研制是在技术封锁、物资匮乏和自然条件艰苦的条件下展开的长期协同攻关。", "sourceId": "S2" },
+    { "text": "第一颗原子弹爆炸成功，是科研人员、工程技术人员、解放军指战员和广大建设者共同奋斗的结果。", "sourceId": "S1" }
+  ],
+  "letter": {
+    "author": "赵川（虚构）",
+    "role": "戈壁滩建设者",
+    "date": "1964 年 10 月 16 日",
+    "body": "风沙把帐篷打得作响，大家却很少说累。夜里抬头看星星，我总觉得，我们正在做一件很大的事。今天远处升起那团光时，没有人说话。过了很久，才有人轻轻喊了一句：成了。",
+    "disclaimer": "文学化演绎：人物、书信与感受均为虚构，仅用于理解历史情境。"
+  },
+  "character": { "mode": "none", "portrait": null, "modelPath": null },
+  "media": {
+    "hero": "1964-hero",
+    "gallery": ["1964-gallery-1", "1964-gallery-2"],
+    "video": "1964-video"
+  },
+  "audio": { "ambient": "1964-ambient" },
+  "data": [
+    { "label": "第一颗原子弹爆炸成功", "value": "10 月 16 日", "unit": "", "year": 1964, "sourceId": "S1" },
+    { "label": "试验地点", "value": "罗布泊", "unit": "", "year": 1964, "sourceId": "S1" },
+    { "label": "试验类型", "value": "第一颗原子弹", "unit": "", "year": 1964, "sourceId": "S1" }
+  ],
+  "graph": {
+    "nodes": [
+      { "id": "atomic-bomb", "name": "第一颗原子弹爆炸成功", "category": "事件", "description": "1964 年 10 月 16 日，中国第一颗原子弹在罗布泊爆炸成功。" },
+      { "id": "lop-nur", "name": "罗布泊试验场", "category": "地点", "description": "核试验与相关工程建设在极其艰苦的自然环境中展开。" },
+      { "id": "qian-sanjqiang", "name": "钱三强", "category": "人物", "description": "核物理学家，为中国原子能事业和核武器研制作出重要贡献。" },
+      { "id": "deng-jiaxian", "name": "邓稼先", "category": "人物", "description": "核物理学家，长期隐姓埋名投身国防科研。" },
+      { "id": "yu-min", "name": "于敏", "category": "人物", "description": "核物理学家，在氢弹理论研究中发挥重要作用。" },
+      { "id": "research-team", "name": "科研攻关团队", "category": "群体", "description": "多学科、多部门人员在保密环境中协同完成理论、设计与实验任务。" },
+      { "id": "self-reliance", "name": "自力更生", "category": "精神", "description": "面对技术封锁和物资困难，依靠自身力量组织攻关。" },
+      { "id": "defense", "name": "国防现代化", "category": "进程", "description": "核武器研制是新中国国防建设与工业化进程中的重要实践。" }
+    ],
+    "links": [
+      { "source": "research-team", "target": "atomic-bomb", "label": "攻关" },
+      { "source": "qian-sanjqiang", "target": "research-team", "label": "组织" },
+      { "source": "deng-jiaxian", "target": "research-team", "label": "理论贡献" },
+      { "source": "yu-min", "target": "research-team", "label": "理论贡献" },
+      { "source": "self-reliance", "target": "research-team", "label": "支撑" },
+      { "source": "atomic-bomb", "target": "lop-nur", "label": "试验于" },
+      { "source": "atomic-bomb", "target": "defense", "label": "推动" }
+    ]
+  },
+  "agents": {
+    "witness": {
+      "prompt": "以 1964 年戈壁滩上普通建设者的视角回应，使用文学化演绎，不冒充真实人物。",
+      "disclaimer": "文学化演绎：以下人物与感受为虚构，仅用于理解历史情境。",
+      "demo": {
+        "reply": "风沙把帐篷打得作响，大家却很少说累。夜里抬头看星星，我总觉得，我们正在做一件很大的事。",
+        "citationNodeIds": []
+      }
+    },
+    "historian": {
+      "prompt": "依据事件来源解释第一颗原子弹研制的背景、过程与意义，并为关键判断标注来源。",
+      "citationRequired": true,
+      "demo": {
+        "reply": "1964 年 10 月 16 日，中国第一颗原子弹在罗布泊爆炸成功。这一成果是科研人员、工程技术人员、解放军指战员和广大建设者共同奋斗的结果，体现了独立自主、自力更生的精神。[S1][S2]",
+        "citationNodeIds": ["atomic-bomb", "lop-nur", "research-team", "self-reliance"]
+      }
+    }
+  },
+  "sources": [
+    { "id": "S1", "title": "我国第一颗原子弹爆炸成功", "author": "新华社", "publisher": "新华社", "year": 1964, "url": null, "accessed": "2026-11-27" },
+    { "id": "S2", "title": "中国共产党简史", "author": "本书编写组", "publisher": "人民出版社、中共党史出版社", "year": 2021, "url": null, "accessed": "2026-11-27" }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "1919",
+  "year": 1919,
+  "title": "五四",
+  "subtitle": "觉醒",
+  "summary": "巴黎和会上的外交挫败，引发北京学生走上街头。新文化运动中的思想争鸣，也为随后马克思主义的传播准备了土壤。",
+  "location": { "name": "北京", "lng": 116.4074, "lat": 39.9042 },
+  "facts": [
+    { "text": "1919 年巴黎和会期间，山东问题成为中方交涉的焦点，和会有关决定激起中国社会强烈不满。", "sourceId": "S1" },
+    { "text": "1919 年 5 月 4 日，北京学生举行集会游行，要求拒签和约、惩办亲日派官员。", "sourceId": "S1" },
+    { "text": "6 月初上海工人罢工后，运动中心由北京转移到上海，学生、工人和商人等更广泛群体参与其中。", "sourceId": "S2" }
+  ],
+  "letter": {
+    "author": "林岚（虚构）",
+    "role": "北京青年学生",
+    "date": "1919 年 5 月 5 日",
+    "body": "昨天街上的呼声仿佛还在耳边。我原以为读书只是自己的功课，那天才明白，国家的命运也会走到自己脚边。回到宿舍，我把传单一张张压平，第一次认真想：我能为这个国家做什么？",
+    "disclaimer": "文学化演绎：人物、书信与感受均为虚构，仅用于理解历史情境。"
+  },
+  "character": { "mode": "none", "portrait": null, "modelPath": null },
+  "media": {
+    "hero": "1919-hero",
+    "gallery": ["1919-gallery-1", "1919-gallery-2"],
+    "video": "1919-video"
+  },
+  "audio": { "ambient": "1919-ambient" },
+  "data": [
+    { "label": "北京参加集会游行的学生", "value": "3000 余", "unit": "人", "year": 1919, "sourceId": "S1" },
+    { "label": "上海工人罢工开始", "value": "6 月 5 日", "unit": "", "year": 1919, "sourceId": "S1" },
+    { "label": "中国代表拒签对德和约", "value": "6 月 28 日", "unit": "", "year": 1919, "sourceId": "S1" }
+  ],
+  "graph": {
+    "nodes": [
+      { "id": "may-fourth", "name": "五四运动", "category": "事件", "description": "1919 年由学生发起、随后扩展到社会各阶层的爱国运动。" },
+      { "id": "students", "name": "青年学生", "category": "群体", "description": "运动初期的组织者与参与者，以游行、罢课和宣传表达诉求。" },
+      { "id": "paris", "name": "巴黎和会", "category": "国际", "description": "第一次世界大战后的战胜国会议，中国代表就山东问题提出交涉。" },
+      { "id": "versailles", "name": "凡尔赛体系", "category": "国际", "description": "战后国际秩序安排，山东问题成为其中影响中国民族情绪的重要议题。" },
+      { "id": "shandong", "name": "山东权益", "category": "议题", "description": "五四运动直接抗议的焦点，涉及德国在山东权益的处置。" },
+      { "id": "new-culture", "name": "新文化运动", "category": "思想", "description": "提倡民主与科学、反思传统文化的思想文化运动。" },
+      { "id": "marxism", "name": "马克思主义传播", "category": "思想", "description": "五四运动前后，马克思主义在中国的传播与讨论明显扩大。" },
+      { "id": "public-opinion", "name": "社会舆论", "category": "群体", "description": "报刊、社团与公众讨论把校园抗议扩展为更广泛的社会动员。" }
+    ],
+    "links": [
+      { "source": "paris", "target": "versailles", "label": "塑造" },
+      { "source": "versailles", "target": "shandong", "label": "处置" },
+      { "source": "shandong", "target": "may-fourth", "label": "触发" },
+      { "source": "students", "target": "may-fourth", "label": "发起" },
+      { "source": "may-fourth", "target": "public-opinion", "label": "扩散" },
+      { "source": "new-culture", "target": "students", "label": "影响" },
+      { "source": "new-culture", "target": "marxism", "label": "促进传播" },
+      { "source": "may-fourth", "target": "marxism", "label": "扩大讨论" }
+    ]
+  },
+  "agents": {
+    "witness": {
+      "prompt": "以 1919 年北京普通学生的视角回应，使用文学化演绎，不冒充真实人物。",
+      "disclaimer": "文学化演绎：以下人物与感受为虚构，仅用于理解历史情境。",
+      "demo": {
+        "reply": "街上的呼声一阵高过一阵。我原以为读书只是功课里的事，那天才明白，国家的命运也会走到自己脚边。",
+        "citationNodeIds": []
+      }
+    },
+    "historian": {
+      "prompt": "依据事件来源解释背景、过程与影响，并为关键判断标注来源。",
+      "citationRequired": true,
+      "demo": {
+        "reply": "五四运动由巴黎和会山东问题引发，学生抗议随后获得更广泛的社会响应。它与新文化运动相互激荡，也扩大了马克思主义在中国的传播。[S1][S2]",
+        "citationNodeIds": ["paris", "may-fourth", "marxism"]
+      }
+    }
+  },
+  "sources": [
+    { "id": "S1", "title": "五四运动和马克思主义的传播", "author": "中共中央党史和文献研究院", "publisher": "中国共产党历史网", "year": 2021, "url": null, "accessed": "2026-11-27" },
+    { "id": "S2", "title": "中国近现代史纲要", "author": "本书编写组", "publisher": "高等教育出版社", "year": 2023, "url": null, "accessed": "2026-11-27" }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://time-archive.local/content-schema.json",
+  "title": "Time Archive event",
+  "type": "object",
+  "required": [
+    "id",
+    "year",
+    "title",
+    "subtitle",
+    "summary",
+    "location",
+    "facts",
+    "letter",
+    "character",
+    "media",
+    "audio",
+    "graph",
+    "data",
+    "agents",
+    "sources"
+  ],
+  "properties": {
+    "id": { "enum": ["1919", "1921", "1949", "1964", "1978", "2020"] },
+    "year": { "type": "integer", "minimum": 1900, "maximum": 2100 },
+    "title": { "$ref": "#/definitions/nonEmpty" },
+    "subtitle": { "$ref": "#/definitions/nonEmpty" },
+    "summary": { "$ref": "#/definitions/nonEmpty" },
+    "location": {
+      "type": "object",
+      "required": ["name", "lng", "lat"],
+      "properties": {
+        "name": { "$ref": "#/definitions/nonEmpty" },
+        "lng": { "type": "number", "minimum": -180, "maximum": 180 },
+        "lat": { "type": "number", "minimum": -90, "maximum": 90 }
+      }
+    },
+    "facts": {
+      "type": "array",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "required": ["text", "sourceId"],
+        "properties": {
+          "text": { "$ref": "#/definitions/nonEmpty" },
+          "sourceId": { "$ref": "#/definitions/nonEmpty" }
+        }
+      }
+    },
+    "letter": {
+      "type": "object",
+      "required": ["author", "role", "date", "body", "disclaimer"],
+      "properties": {
+        "author": { "$ref": "#/definitions/nonEmpty" },
+        "role": { "$ref": "#/definitions/nonEmpty" },
+        "date": { "$ref": "#/definitions/nonEmpty" },
+        "body": { "$ref": "#/definitions/nonEmpty" },
+        "disclaimer": { "$ref": "#/definitions/nonEmpty" }
+      }
+    },
+    "character": {
+      "type": "object",
+      "required": ["mode", "portrait", "modelPath"],
+      "properties": {
+        "mode": { "enum": ["none", "portrait", "model"] },
+        "portrait": { "type": ["string", "null"] },
+        "modelPath": { "type": ["string", "null"] }
+      }
+    },
+    "media": {
+      "type": "object",
+      "required": ["hero", "gallery", "video"],
+      "properties": {
+        "hero": { "$ref": "#/definitions/nonEmpty" },
+        "gallery": {
+          "type": "array",
+          "minItems": 2,
+          "items": { "$ref": "#/definitions/nonEmpty" }
+        },
+        "video": { "$ref": "#/definitions/nonEmpty" }
+      }
+    },
+    "audio": {
+      "type": "object",
+      "required": ["ambient"],
+      "properties": {
+        "ambient": { "$ref": "#/definitions/nonEmpty" }
+      }
+    },
+    "graph": {
+      "type": "object",
+      "required": ["nodes", "links"],
+      "properties": {
+        "nodes": {
+          "type": "array",
+          "minItems": 8,
+          "maxItems": 12,
+          "items": {
+            "type": "object",
+            "required": ["id", "name", "category", "description"],
+            "properties": {
+              "id": { "$ref": "#/definitions/nonEmpty" },
+              "name": { "$ref": "#/definitions/nonEmpty" },
+              "category": { "$ref": "#/definitions/nonEmpty" },
+              "description": { "$ref": "#/definitions/nonEmpty" }
+            }
+          }
+        },
+        "links": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": ["source", "target", "label"],
+            "properties": {
+              "source": { "$ref": "#/definitions/nonEmpty" },
+              "target": { "$ref": "#/definitions/nonEmpty" },
+              "label": { "$ref": "#/definitions/nonEmpty" }
+            }
+          }
+        }
+      }
+    },
+    "data": {
+      "type": "array",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "required": ["label", "value", "unit", "year", "sourceId"],
+        "properties": {
+          "label": { "$ref": "#/definitions/nonEmpty" },
+          "value": { "type": ["number", "string"] },
+          "unit": { "type": "string" },
+          "year": { "type": "integer" },
+          "sourceId": { "$ref": "#/definitions/nonEmpty" }
+        }
+      }
+    },
+    "agents": {
+      "type": "object",
+      "required": ["witness", "historian"],
+      "properties": {
+        "witness": {
+          "type": "object",
+          "required": ["prompt", "disclaimer"],
+          "properties": {
+            "prompt": { "$ref": "#/definitions/nonEmpty" },
+            "disclaimer": { "$ref": "#/definitions/nonEmpty" }
+          }
+        },
+        "historian": {
+          "type": "object",
+          "required": ["prompt", "citationRequired"],
+          "properties": {
+            "prompt": { "$ref": "#/definitions/nonEmpty" },
+            "citationRequired": { "const": true }
+          }
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "publisher", "year", "url", "accessed"],
+        "properties": {
+          "id": { "$ref": "#/definitions/nonEmpty" },
+          "title": { "$ref": "#/definitions/nonEmpty" },
+          "author": { "type": "string" },
+          "publisher": { "$ref": "#/definitions/nonEmpty" },
+          "year": { "type": "integer" },
+          "url": { "type": ["string", "null"] },
+          "accessed": { "$ref": "#/definitions/nonEmpty" }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "nonEmpty": { "type": "string", "minLength": 1, "pattern": "\\S" }
+  }
+}

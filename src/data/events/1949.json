@@ -1,0 +1,75 @@
+{
+  "id": "1949",
+  "year": 1949,
+  "title": "开国",
+  "subtitle": "站立",
+  "summary": "历经长期民族独立与人民解放斗争，中华人民共和国成立。一个全新的国家政权，开启了恢复经济、重建社会的新阶段。",
+  "location": { "name": "北京", "lng": 116.3914, "lat": 39.9054 },
+  "facts": [
+    { "text": "1949 年 9 月，中国人民政治协商会议第一届全体会议召开，为新中国的建立作了重要准备。", "sourceId": "S1" },
+    { "text": "1949 年 10 月 1 日，中华人民共和国中央人民政府在北京成立。", "sourceId": "S1" },
+    { "text": "新中国的成立，为实现国家统一、人民解放后的社会重建和国家建设开辟了广阔前景。", "sourceId": "S2" }
+  ],
+  "letter": {
+    "author": "陈星（虚构）",
+    "role": "参加开国大典的青年学生",
+    "date": "1949 年 10 月 1 日",
+    "body": "我挤在人群里，手里的旗子被风吹得猎猎作响。礼炮响起来的时候，周围的人都哭了。我们等这一天等了太久。明天会是什么样，我还说不清，但我愿意相信，新的生活真的开始了。",
+    "disclaimer": "文学化演绎：人物、书信与感受均为虚构，仅用于理解历史情境。"
+  },
+  "character": { "mode": "none", "portrait": null, "modelPath": null },
+  "media": {
+    "hero": "1949-hero",
+    "gallery": ["1949-gallery-1", "1949-gallery-2"],
+    "video": "1949-video"
+  },
+  "audio": { "ambient": "1949-ambient" },
+  "data": [
+    { "label": "第一届政协全体会议召开", "value": "9 月", "unit": "月", "year": 1949, "sourceId": "S1" },
+    { "label": "中华人民共和国成立", "value": "10 月 1 日", "unit": "", "year": 1949, "sourceId": "S1" },
+    { "label": "开国大典举行地", "value": "北京天安门广场", "unit": "", "year": 1949, "sourceId": "S1" }
+  ],
+  "graph": {
+    "nodes": [
+      { "id": "prc", "name": "中华人民共和国", "category": "国家", "description": "1949 年 10 月 1 日成立，开辟中国历史新纪元。" },
+      { "id": "founding", "name": "开国大典", "category": "事件", "description": "1949 年 10 月 1 日在北京天安门广场举行的成立庆典。" },
+      { "id": "tiananmen", "name": "天安门广场", "category": "地点", "description": "开国大典的举行地，也是新中国重要国家庆典的象征空间。" },
+      { "id": "cpc", "name": "中国共产党", "category": "组织", "description": "领导中国人民取得新民主主义革命胜利的核心力量。" },
+      { "id": "pla", "name": "人民军队", "category": "群体", "description": "在革命战争中发展壮大，为新中国建立作出重要贡献。" },
+      { "id": "people", "name": "人民群众", "category": "群体", "description": "以参军、支前、生产等方式参与并支持革命事业。" },
+      { "id": "cppcc", "name": "中国人民政治协商会议", "category": "组织", "description": "第一届全体会议为新中国建立作了重要准备。" },
+      { "id": "reconstruction", "name": "社会重建", "category": "进程", "description": "新中国成立后面向经济恢复、社会治理和国家建设的长期任务。" }
+    ],
+    "links": [
+      { "source": "cppcc", "target": "prc", "label": "筹建" },
+      { "source": "cpc", "target": "prc", "label": "领导建立" },
+      { "source": "pla", "target": "prc", "label": "奠定基础" },
+      { "source": "people", "target": "pla", "label": "支援" },
+      { "source": "prc", "target": "founding", "label": "宣告" },
+      { "source": "founding", "target": "tiananmen", "label": "举行于" },
+      { "source": "prc", "target": "reconstruction", "label": "开启" }
+    ]
+  },
+  "agents": {
+    "witness": {
+      "prompt": "以 1949 年参加开国大典的普通青年视角回应，使用文学化演绎，不冒充真实人物。",
+      "disclaimer": "文学化演绎：以下人物与感受为虚构，仅用于理解历史情境。",
+      "demo": {
+        "reply": "我挤在人群里，听见礼炮声的时候，手里的旗子差点掉下去。周围都是陌生人，我们却像一起等了很久。",
+        "citationNodeIds": []
+      }
+    },
+    "historian": {
+      "prompt": "依据事件来源解释新中国成立的历史条件、开国大典与后续影响，并为关键判断标注来源。",
+      "citationRequired": true,
+      "demo": {
+        "reply": "1949 年 10 月 1 日，中华人民共和国中央人民政府成立。新中国的成立结束了近代以来中国半殖民地半封建社会的历史，也为国家建设和社会变革开辟了广阔前景。[S1][S2]",
+        "citationNodeIds": ["prc", "founding", "reconstruction"]
+      }
+    }
+  },
+  "sources": [
+    { "id": "S1", "title": "中华人民共和国中央人民政府成立", "author": "中共中央党史和文献研究院", "publisher": "中国共产党历史网", "year": 2021, "url": null, "accessed": "2026-11-27" },
+    { "id": "S2", "title": "中国近现代史纲要", "author": "本书编写组", "publisher": "高等教育出版社", "year": 2023, "url": null, "accessed": "2026-11-27" }
+  ]
+}

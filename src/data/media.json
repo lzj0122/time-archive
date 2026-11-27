@@ -1,0 +1,350 @@
+{
+  "1919": [
+    {
+      "id": "1919-hero",
+      "type": "image",
+      "title": "五四运动主视觉",
+      "status": "missing",
+      "license": "待核实（仅接受 CC0/公版）",
+      "source": "https://commons.wikimedia.org/wiki/File:Chinese_protestors_march_against_the_Treaty_of_Versailles_(May_4,_1919).jpg",
+      "credit": "待核实",
+      "localPath": "/media/events/1919-may-fourth.jpg",
+      "caption": "1919 年 5 月 4 日北京学生游行候选图。",
+      "reason": "已下载图的文件名与已核实公版标注的 Commons 文件页不一致，不能据此确认同一授权，暂不接入。"
+    },
+    {
+      "id": "1919-gallery-1",
+      "type": "image",
+      "title": "五四运动史料图一",
+      "status": "missing",
+      "license": "待核实（仅接受 CC0/公版）",
+      "source": "待补充",
+      "credit": "待补充",
+      "caption": "待选：巴黎和会或山东问题相关公版史料。",
+      "reason": "尚未找到作者、来源与公版许可均可核验的图片。"
+    },
+    {
+      "id": "1919-gallery-2",
+      "type": "image",
+      "title": "五四运动史料图二",
+      "status": "missing",
+      "license": "待核实（仅接受 CC0/公版）",
+      "source": "待补充",
+      "credit": "待补充",
+      "caption": "待选：学生抗议或社会响应相关公版史料。",
+      "reason": "尚未找到作者、来源与公版许可均可核验的图片。"
+    },
+    {
+      "id": "1919-video",
+      "type": "video",
+      "title": "五四运动动态影像",
+      "status": "missing",
+      "license": "仅接受公版或自制",
+      "source": "待选或待自制",
+      "credit": "待补充",
+      "caption": "待制作：不得把非原始影像冒充历史现场。",
+      "reason": "尚未选定可核验的公版影像，也未生成自制动态影像。"
+    },
+    {
+      "id": "1919-ambient",
+      "type": "audio",
+      "title": "五四运动环境音",
+      "status": "missing",
+      "license": "仅接受 CC0",
+      "source": "待选或待自制",
+      "credit": "待补充",
+      "caption": "待制作：低音量、无对白的档案馆环境声。",
+      "reason": "尚未选定 CC0 音源，也未生成 CC0 自制环境音。"
+    }
+  ],
+  "1921": [
+    {
+      "id": "1921-hero",
+      "type": "image",
+      "title": "建党主视觉",
+      "status": "missing",
+      "license": "待核实（仅接受 CC0/公版）",
+      "source": "待补充",
+      "credit": "待补充",
+      "caption": "待选：中共一大相关公版史料。",
+      "reason": "尚未找到作者、来源与公版许可均可核验的图片。"
+    },
+    {
+      "id": "1921-gallery-1",
+      "type": "image",
+      "title": "建党史料图一",
+      "status": "missing",
+      "license": "待核实（仅接受 CC0/公版）",
+      "source": "待补充",
+      "credit": "待补充",
+      "caption": "待选：上海一大旧址或早期工人运动相关公版史料。",
+      "reason": "尚未找到作者、来源与公版许可均可核验的图片。"
+    },
+    {
+      "id": "1921-gallery-2",
+      "type": "image",
+      "title": "建党史料图二",
+      "status": "missing",
+      "license": "待核实（仅接受 CC0/公版）",
+      "source": "待补充",
+      "credit": "待补充",
+      "caption": "待选：嘉兴南湖或建党人物相关公版史料。",
+      "reason": "尚未找到作者、来源与公版许可均可核验的图片。"
+    },
+    {
+      "id": "1921-video",
+      "type": "video",
+      "title": "建党动态影像",
+      "status": "missing",
+      "license": "仅接受公版或自制",
+      "source": "待选或待自制",
+      "credit": "待补充",
+      "caption": "待制作：不得把非原始影像冒充历史现场。",
+      "reason": "尚未选定可核验的公版影像，也未生成自制动态影像。"
+    },
+    {
+      "id": "1921-ambient",
+      "type": "audio",
+      "title": "建党环境音",
+      "status": "missing",
+      "license": "仅接受 CC0",
+      "source": "待选或待自制",
+      "credit": "待补充",
+      "caption": "待制作：低音量、无对白的档案馆环境声。",
+      "reason": "尚未选定 CC0 音源，也未生成 CC0 自制环境音。"
+    }
+  ],
+  "1949": [
+    {
+      "id": "1949-hero",
+      "type": "image",
+      "title": "开国大典主视觉",
+      "status": "ready",
+      "license": "Public domain（中国公版；1949 年历史照片）",
+      "source": "https://commons.wikimedia.org/wiki/File:Mao_proclaiming_establishment_of_PRC.jpg",
+      "credit": "Unknown photographer / Wikimedia Commons",
+      "localPath": "/media/events/1949-founding.jpg",
+      "caption": "1949 年 10 月 1 日，毛泽东在天安门城楼宣读中央人民政府公告。",
+      "originalName": "Mao proclaiming establishment of PRC.jpg"
+    },
+    {
+      "id": "1949-gallery-1",
+      "type": "image",
+      "title": "《人民日报》1949 年 10 月 1 日号",
+      "status": "ready",
+      "license": "Public domain（中国公版；1949 年出版物）",
+      "source": "https://commons.wikimedia.org/wiki/File:People%27s_daily_1_Oct_1949.jpg",
+      "credit": "People's Daily / Wikimedia Commons；上传者 Tomchen1989",
+      "localPath": "/media/events/1949-peoples-daily.jpg",
+      "caption": "1949 年 10 月 1 日《人民日报》报道中华人民共和国成立。",
+      "originalName": "People's daily 1 Oct 1949.jpg"
+    },
+    {
+      "id": "1949-gallery-2",
+      "type": "image",
+      "title": "开国史料图二",
+      "status": "missing",
+      "license": "待核实（仅接受 CC0/公版）",
+      "source": "待补充",
+      "credit": "待补充",
+      "caption": "待选：第一届政协会议或开国大典群众场景相关公版史料。",
+      "reason": "尚未找到作者、来源与公版许可均可核验的图片。"
+    },
+    {
+      "id": "1949-video",
+      "type": "video",
+      "title": "开国动态影像",
+      "status": "missing",
+      "license": "仅接受公版或自制",
+      "source": "待选或待自制",
+      "credit": "待补充",
+      "caption": "待制作：优先自制档案动态图，不使用授权不明的历史影片。",
+      "reason": "尚未选定可核验的公版影像，也未生成自制动态影像。"
+    },
+    {
+      "id": "1949-ambient",
+      "type": "audio",
+      "title": "开国环境音",
+      "status": "missing",
+      "license": "仅接受 CC0",
+      "source": "待选或待自制",
+      "credit": "待补充",
+      "caption": "待制作：低音量、无对白的档案馆环境声。",
+      "reason": "尚未选定 CC0 音源，也未生成 CC0 自制环境音。"
+    }
+  ],
+  "1964": [
+    {
+      "id": "1964-hero",
+      "type": "image",
+      "title": "邓稼先主视觉",
+      "status": "ready",
+      "license": "Public domain in China（摄影作品保护期已届满）",
+      "source": "https://commons.wikimedia.org/wiki/File:Deng_Jiaxian_1949.jpg",
+      "credit": "Unknown author；原始来源：National Museum of China；经 Wikimedia Commons",
+      "localPath": "/media/events/1964-deng-jiaxian.jpg",
+      "caption": "邓稼先（1949 年）。此照片拍摄于原子弹研制之前，用于呈现人物背景。",
+      "originalName": "Deng Jiaxian 1949.jpg"
+    },
+    {
+      "id": "1964-gallery-1",
+      "type": "image",
+      "title": "第一颗原子弹爆炸史料图",
+      "status": "missing",
+      "license": "待核实（仅接受 CC0/公版）",
+      "source": "待补充",
+      "credit": "待补充",
+      "caption": "待选：1964 年罗布泊试验相关公版史料。",
+      "reason": "尚未找到作者、来源与公版许可均可核验的试验现场图片。"
+    },
+    {
+      "id": "1964-gallery-2",
+      "type": "image",
+      "title": "科研人员合影候选图",
+      "status": "missing",
+      "license": "待核实（仅接受 CC0/公版）",
+      "source": "https://commons.wikimedia.org/wiki/File:1972%E5%B9%B4%EF%BC%8C%E9%82%93%E7%A8%BC%E5%85%88%E3%80%81%E7%8E%8B%E6%89%BF%E4%B9%A6%E3%80%81%E6%9D%A8%E6%8C%AF%E5%AE%81%E5%92%8C%E5%BC%A0%E6%96%87%E8%A3%95%E5%9C%A8%E4%B8%AD%E5%9B%BD%E7%A7%91%E5%AD%A6%E9%99%A2%E7%9A%84%E5%90%88%E7%85%A7.png",
+      "credit": "待核实",
+      "localPath": "/media/events/1964-scientists-1972.jpg",
+      "caption": "1972 年邓稼先、王承书、杨振宁、张文裕在中国科学院的合影候选图。",
+      "reason": "检索结果出现公版模板，但完整作者与来源字段未核实；且照片摄于 1972 年，不能作为 1964 年试验现场图。"
+    },
+    {
+      "id": "1964-video",
+      "type": "video",
+      "title": "两弹一星动态影像",
+      "status": "missing",
+      "license": "仅接受公版或自制",
+      "source": "待选或待自制",
+      "credit": "待补充",
+      "caption": "待制作：可用自制抽象动态图呈现科研协作，不冒充历史现场。",
+      "reason": "尚未选定可核验的公版影像，也未生成自制动态影像。"
+    },
+    {
+      "id": "1964-ambient",
+      "type": "audio",
+      "title": "戈壁环境音",
+      "status": "missing",
+      "license": "仅接受 CC0",
+      "source": "待选或待自制",
+      "credit": "待补充",
+      "caption": "待制作：低音量、无对白的风沙与空间环境声。",
+      "reason": "尚未选定 CC0 音源，也未生成 CC0 自制环境音。"
+    }
+  ],
+  "1978": [
+    {
+      "id": "1978-hero",
+      "type": "image",
+      "title": "深圳旧貌主视觉",
+      "status": "ready",
+      "license": "Public domain worldwide（作者 Ivor  dedication）",
+      "source": "https://commons.wikimedia.org/wiki/File:Old_shenzhen.jpg",
+      "credit": "Ivor / Wikimedia Commons",
+      "localPath": "/media/events/1978-old-shenzhen.jpg",
+      "caption": "深圳旧貌，摄于 2007 年。用于呈现改革前城市街景的后续记录，不是 1978 年现场照片。",
+      "originalName": "Old shenzhen.jpg"
+    },
+    {
+      "id": "1978-gallery-1",
+      "type": "image",
+      "title": "小岗村史料图",
+      "status": "missing",
+      "license": "待核实（仅接受 CC0/公版）",
+      "source": "待补充",
+      "credit": "待补充",
+      "caption": "待选：小岗村或农村改革相关公版史料。",
+      "reason": "尚未找到作者、来源与公版许可均可核验的图片。"
+    },
+    {
+      "id": "1978-gallery-2",
+      "type": "image",
+      "title": "改革开放史料图二",
+      "status": "missing",
+      "license": "待核实（仅接受 CC0/公版）",
+      "source": "待补充",
+      "credit": "待补充",
+      "caption": "待选：十一届三中全会或经济特区相关公版史料。",
+      "reason": "尚未找到作者、来源与公版许可均可核验的图片。"
+    },
+    {
+      "id": "1978-video",
+      "type": "video",
+      "title": "改革开放动态影像",
+      "status": "missing",
+      "license": "仅接受公版或自制",
+      "source": "待选或待自制",
+      "credit": "待补充",
+      "caption": "待制作：可用自制地图、时间线或街景动态图呈现变化。",
+      "reason": "尚未选定可核验的公版影像，也未生成自制动态影像。"
+    },
+    {
+      "id": "1978-ambient",
+      "type": "audio",
+      "title": "改革开放环境音",
+      "status": "missing",
+      "license": "仅接受 CC0",
+      "source": "待选或待自制",
+      "credit": "待补充",
+      "caption": "待制作：低音量、无对白的市集与空间环境声。",
+      "reason": "尚未选定 CC0 音源，也未生成 CC0 自制环境音。"
+    }
+  ],
+  "2020": [
+    {
+      "id": "2020-hero",
+      "type": "image",
+      "title": "北斗主视觉",
+      "status": "missing",
+      "license": "待核实（仅接受 CC0/公版）",
+      "source": "待补充",
+      "credit": "待补充",
+      "caption": "待选：北斗卫星、发射或应用场景的公版/自制图像。",
+      "reason": "现代航天照片通常受版权保护，尚未找到可核验的公版素材。"
+    },
+    {
+      "id": "2020-gallery-1",
+      "type": "image",
+      "title": "北斗史料图一",
+      "status": "missing",
+      "license": "待核实（仅接受 CC0/公版）",
+      "source": "待补充",
+      "credit": "待补充",
+      "caption": "待选：组网发射或卫星导航系统相关公版图像。",
+      "reason": "尚未找到作者、来源与公版许可均可核验的图片。"
+    },
+    {
+      "id": "2020-gallery-2",
+      "type": "image",
+      "title": "北斗史料图二",
+      "status": "missing",
+      "license": "待核实（仅接受 CC0/公版）",
+      "source": "待补充",
+      "credit": "待补充",
+      "caption": "待选：交通运输、农业或防灾应用相关公版图像。",
+      "reason": "尚未找到作者、来源与公版许可均可核验的图片。"
+    },
+    {
+      "id": "2020-video",
+      "type": "video",
+      "title": "北斗动态影像",
+      "status": "missing",
+      "license": "仅接受公版或自制",
+      "source": "待选或待自制",
+      "credit": "待补充",
+      "caption": "待制作：自制卫星轨道与全球服务示意动画。",
+      "reason": "尚未选定可核验的公版影像，也未生成自制动态影像。"
+    },
+    {
+      "id": "2020-ambient",
+      "type": "audio",
+      "title": "北斗环境音",
+      "status": "missing",
+      "license": "仅接受 CC0",
+      "source": "待选或待自制",
+      "credit": "待补充",
+      "caption": "待制作：低音量、无对白的电子脉冲与空间环境声。",
+      "reason": "尚未选定 CC0 音源，也未生成 CC0 自制环境音。"
+    }
+  ]
+}

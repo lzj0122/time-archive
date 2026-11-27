@@ -1,0 +1,75 @@
+{
+  "id": "2020",
+  "year": 2020,
+  "title": "北斗",
+  "subtitle": "自强",
+  "summary": "北斗三号全球卫星导航系统正式开通。长期自主研制的卫星导航系统，开始为全球用户提供全天候、高精度的定位导航授时服务。",
+  "location": { "name": "北京", "lng": 116.4074, "lat": 39.9042 },
+  "facts": [
+    { "text": "2020 年 7 月 31 日，北斗三号全球卫星导航系统正式开通。", "sourceId": "S1" },
+    { "text": "北斗系统坚持自主创新，形成了从区域服务到全球服务的能力。", "sourceId": "S2" },
+    { "text": "北斗服务已广泛应用于交通运输、农林渔业、防灾减灾等领域，并逐步走向全球。", "sourceId": "S2" }
+  ],
+  "letter": {
+    "author": "沈野（虚构）",
+    "role": "青年测绘工作者",
+    "date": "2020 年 7 月 31 日",
+    "body": "以前出野外，定位要等很久，遇到山沟还会失去信号。今天看到北斗三号正式开通的消息，我第一时间把消息发给了还在山里的同事。等他们回来，我们想用新的设备，把这片山谷再测一遍。",
+    "disclaimer": "文学化演绎：人物、书信与感受均为虚构，仅用于理解历史情境。"
+  },
+  "character": { "mode": "none", "portrait": null, "modelPath": null },
+  "media": {
+    "hero": "2020-hero",
+    "gallery": ["2020-gallery-1", "2020-gallery-2"],
+    "video": "2020-video"
+  },
+  "audio": { "ambient": "2020-ambient" },
+  "data": [
+    { "label": "北斗三号正式开通", "value": "7 月 31 日", "unit": "", "year": 2020, "sourceId": "S1" },
+    { "label": "全球系统组网卫星", "value": "30", "unit": "颗", "year": 2020, "sourceId": "S2" },
+    { "label": "系统服务范围", "value": "全球", "unit": "", "year": 2020, "sourceId": "S2" }
+  ],
+  "graph": {
+    "nodes": [
+      { "id": "beidou-3", "name": "北斗三号", "category": "系统", "description": "由不同轨道卫星组成，为全球用户提供定位、导航和授时服务。" },
+      { "id": "global-system", "name": "全球卫星导航系统", "category": "系统", "description": "2020 年 7 月 31 日正式开通，标志着北斗三步走战略目标实现。" },
+      { "id": "launch", "name": "组网发射", "category": "工程", "description": "北斗三号通过多次组网发射完成全球系统星座部署。" },
+      { "id": "self-reliance", "name": "自主创新", "category": "精神", "description": "关键技术、核心器型和系统建设主要依靠自主研制。" },
+      { "id": "transport", "name": "交通运输", "category": "应用", "description": "为车辆、船舶和交通管理提供定位与调度支持。" },
+      { "id": "agriculture", "name": "精准农业", "category": "应用", "description": "支持农机自动驾驶、作业监测与精细化管理。" },
+      { "id": "disaster", "name": "防灾减灾", "category": "应用", "description": "用于灾害监测、预警和应急救援通信。" },
+      { "id": "global-service", "name": "全球服务", "category": "国际", "description": "北斗产品与服务进入多个国家和地区，参与全球卫星导航合作。" }
+    ],
+    "links": [
+      { "source": "launch", "target": "beidou-3", "label": "组网" },
+      { "source": "self-reliance", "target": "beidou-3", "label": "支撑" },
+      { "source": "beidou-3", "target": "global-system", "label": "建成" },
+      { "source": "global-system", "target": "transport", "label": "服务" },
+      { "source": "global-system", "target": "agriculture", "label": "服务" },
+      { "source": "global-system", "target": "disaster", "label": "服务" },
+      { "source": "global-system", "target": "global-service", "label": "走向世界" }
+    ]
+  },
+  "agents": {
+    "witness": {
+      "prompt": "以 2020 年从事测绘工作的普通青年视角回应，使用文学化演绎，不冒充真实人物。",
+      "disclaimer": "文学化演绎：以下人物与感受为虚构，仅用于理解历史情境。",
+      "demo": {
+        "reply": "以前出野外，定位要等很久。那天看到北斗三号开通的消息，我第一时间把消息发给了还在山里的同事。",
+        "citationNodeIds": []
+      }
+    },
+    "historian": {
+      "prompt": "依据事件来源解释北斗三号开通的过程、技术特点与社会影响，并为关键判断标注来源。",
+      "citationRequired": true,
+      "demo": {
+        "reply": "2020 年 7 月 31 日，北斗三号全球卫星导航系统正式开通。北斗坚持自主创新，形成从区域服务到全球服务的能力，并在交通运输、农林渔业、防灾减灾等领域得到广泛应用。[S1][S2]",
+        "citationNodeIds": ["beidou-3", "global-system", "self-reliance", "transport", "agriculture"]
+      }
+    }
+  },
+  "sources": [
+    { "id": "S1", "title": "北斗三号全球卫星导航系统正式开通", "author": "新华社", "publisher": "新华社", "year": 2020, "url": null, "accessed": "2026-11-27" },
+    { "id": "S2", "title": "新时代的中国北斗", "author": "中华人民共和国国务院新闻办公室", "publisher": "国务院新闻办公室", "year": 2022, "url": null, "accessed": "2026-11-27" }
+  ]
+}

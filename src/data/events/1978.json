@@ -1,0 +1,75 @@
+{
+  "id": "1978",
+  "year": 1978,
+  "title": "改革开放",
+  "subtitle": "追赶",
+  "summary": "党的十一届三中全会作出把党和国家工作中心转移到经济建设上来、实行改革开放的历史性决策。中国由此迈出新的发展步伐。",
+  "location": { "name": "北京 · 深圳", "lng": 116.4074, "lat": 39.9042 },
+  "facts": [
+    { "text": "1978 年 12 月，党的十一届三中全会在北京召开。", "sourceId": "S1" },
+    { "text": "全会作出把党和国家工作中心转移到经济建设上来、实行改革开放的历史性决策。", "sourceId": "S1" },
+    { "text": "改革从农村起步并逐步扩展到城市，对外开放不断扩大，推动了中国的现代化建设。", "sourceId": "S2" }
+  ],
+  "letter": {
+    "author": "许禾（虚构）",
+    "role": "安徽农村社员",
+    "date": "1978 年 12 月",
+    "body": "那几年最盼的，是地里多打些粮食，日子能有个盼头。消息传来时，我们围着油灯商量到很晚。有人问，这样真的能行吗？我说不清，只记得父亲把种子又数了一遍，像在数明年的希望。",
+    "disclaimer": "文学化演绎：人物、书信与感受均为虚构，仅用于理解历史情境。"
+  },
+  "character": { "mode": "none", "portrait": null, "modelPath": null },
+  "media": {
+    "hero": "1978-hero",
+    "gallery": ["1978-gallery-1", "1978-gallery-2"],
+    "video": "1978-video"
+  },
+  "audio": { "ambient": "1978-ambient" },
+  "data": [
+    { "label": "十一届三中全会召开", "value": "12 月", "unit": "月", "year": 1978, "sourceId": "S1" },
+    { "label": "三中全会会期", "value": "18—22 日", "unit": "日", "year": 1978, "sourceId": "S1" },
+    { "label": "党和国家工作中心", "value": "经济建设", "unit": "", "year": 1978, "sourceId": "S1" }
+  ],
+  "graph": {
+    "nodes": [
+      { "id": "third-plenum", "name": "十一届三中全会", "category": "事件", "description": "1978 年 12 月召开，作出改革开放的历史性决策。" },
+      { "id": "reform-opening", "name": "改革开放", "category": "进程", "description": "从农村到城市、从经济领域到更广泛领域持续推进的深刻变革。" },
+      { "id": "xiaogang", "name": "小岗村", "category": "地点", "description": "安徽凤阳小岗村农民探索包干到户，成为农村改革的重要起点之一。" },
+      { "id": "shenzhen", "name": "深圳经济特区", "category": "地点", "description": "1980 年设立，成为改革开放和现代化建设的窗口。" },
+      { "id": "agriculture", "name": "农村改革", "category": "经济", "description": "家庭联产承包责任制等改革调动了农民生产积极性。" },
+      { "id": "market", "name": "市场活力", "category": "经济", "description": "改革逐步发挥市场作用，增强经济运行活力。" },
+      { "id": "world", "name": "对外开放", "category": "国际", "description": "通过引进外资、技术与管理经验，扩大中国与世界的联系。" },
+      { "id": "modernization", "name": "现代化建设", "category": "进程", "description": "改革开放以经济建设为中心，推动中国特色社会主义事业不断发展。" }
+    ],
+    "links": [
+      { "source": "third-plenum", "target": "reform-opening", "label": "开启" },
+      { "source": "reform-opening", "target": "agriculture", "label": "先行" },
+      { "source": "xiaogang", "target": "agriculture", "label": "探索" },
+      { "source": "reform-opening", "target": "shenzhen", "label": "设立特区" },
+      { "source": "reform-opening", "target": "market", "label": "激发" },
+      { "source": "reform-opening", "target": "world", "label": "扩大" },
+      { "source": "reform-opening", "target": "modernization", "label": "推动" }
+    ]
+  },
+  "agents": {
+    "witness": {
+      "prompt": "以 1978 年安徽农村普通社员的视角回应，使用文学化演绎，不冒充真实人物。",
+      "disclaimer": "文学化演绎：以下人物与感受为虚构，仅用于理解历史情境。",
+      "demo": {
+        "reply": "那几年最盼的，是地里多打些粮食，日子能有个盼头。消息传来时，我们围着油灯商量到很晚。",
+        "citationNodeIds": []
+      }
+    },
+    "historian": {
+      "prompt": "依据事件来源解释改革开放的历史背景、决策与影响，并为关键判断标注来源。",
+      "citationRequired": true,
+      "demo": {
+        "reply": "1978 年 12 月，党的十一届三中全会作出把党和国家工作中心转移到经济建设上来、实行改革开放的历史性决策。改革从农村起步并逐步扩展到城市，对外开放不断扩大，深刻改变了中国的面貌。[S1][S2]",
+        "citationNodeIds": ["third-plenum", "reform-opening", "agriculture", "shenzhen"]
+      }
+    }
+  },
+  "sources": [
+    { "id": "S1", "title": "党的十一届三中全会实现伟大历史转折", "author": "中共中央党史和文献研究院", "publisher": "中国共产党历史网", "year": 2021, "url": null, "accessed": "2026-11-27" },
+    { "id": "S2", "title": "中国共产党简史", "author": "本书编写组", "publisher": "人民出版社、中共党史出版社", "year": 2021, "url": null, "accessed": "2026-11-27" }
+  ]
+}

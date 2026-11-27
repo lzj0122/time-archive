@@ -1,0 +1,75 @@
+{
+  "id": "1921",
+  "year": 1921,
+  "title": "建党",
+  "subtitle": "开天辟地",
+  "summary": "在近代中国寻找出路的实践中，一批先进知识分子组织起来。中国共产党第一次全国代表大会，成为党的正式成立的重要标志。",
+  "location": { "name": "上海 · 嘉兴", "lng": 121.4737, "lat": 31.2304 },
+  "facts": [
+    { "text": "1921 年 7 月，中国共产党第一次全国代表大会在上海开幕。", "sourceId": "S1" },
+    { "text": "大会最后一天的会议转移到浙江嘉兴南湖的游船上继续举行。", "sourceId": "S1" },
+    { "text": "大会通过党的第一个纲领、选举产生中央领导机构，标志着中国共产党正式成立。", "sourceId": "S2" }
+  ],
+  "letter": {
+    "author": "周明（虚构）",
+    "role": "上海青年工人",
+    "date": "1921 年 7 月 23 日",
+    "body": "收工后，我常去弄堂里的夜校听课。先生讲，工人不该只盯着眼前的机器，也该想一想国家的将来。今晚屋里很安静，有人在低声读报。我不知道明天会怎样，却第一次觉得，明天也许真的可以不同。",
+    "disclaimer": "文学化演绎：人物、书信与感受均为虚构，仅用于理解历史情境。"
+  },
+  "character": { "mode": "none", "portrait": null, "modelPath": null },
+  "media": {
+    "hero": "1921-hero",
+    "gallery": ["1921-gallery-1", "1921-gallery-2"],
+    "video": "1921-video"
+  },
+  "audio": { "ambient": "1921-ambient" },
+  "data": [
+    { "label": "中共一大开幕", "value": "7 月", "unit": "月", "year": 1921, "sourceId": "S1" },
+    { "label": "一大代表", "value": "13", "unit": "名", "year": 1921, "sourceId": "S2" },
+    { "label": "成立时全国党员", "value": "50 余", "unit": "名", "year": 1921, "sourceId": "S2" }
+  ],
+  "graph": {
+    "nodes": [
+      { "id": "cpc", "name": "中国共产党", "category": "组织", "description": "1921 年成立的中国工人阶级政党，也是中国人民和中华民族的先锋队。" },
+      { "id": "first-congress", "name": "第一次全国代表大会", "category": "事件", "description": "1921 年召开，标志着中国共产党的正式成立。" },
+      { "id": "shanghai", "name": "上海", "category": "地点", "description": "一大最初举行的地方，也是近代中国重要的工人运动与思想传播城市。" },
+      { "id": "jiaxing", "name": "嘉兴南湖", "category": "地点", "description": "一大最后一天的会议转移到此处的游船上继续举行。" },
+      { "id": "chen-duxiu", "name": "陈独秀", "category": "人物", "description": "新文化运动的重要倡导者，中国共产党的主要创始人之一。" },
+      { "id": "li-dazhao", "name": "李大钊", "category": "人物", "description": "中国最早的马克思主义传播者之一，中国共产党的主要创始人之一。" },
+      { "id": "comintern", "name": "共产国际", "category": "国际", "description": "对早期中国共产党组织的建立与活动产生过重要影响。" },
+      { "id": "workers", "name": "工人运动", "category": "群体", "description": "党的早期工作深入工人群众，推动马克思主义与工人运动结合。" }
+    ],
+    "links": [
+      { "source": "shanghai", "target": "first-congress", "label": "承办" },
+      { "source": "first-congress", "target": "jiaxing", "label": "续会" },
+      { "source": "first-congress", "target": "cpc", "label": "宣告成立" },
+      { "source": "chen-duxiu", "target": "cpc", "label": "创建" },
+      { "source": "li-dazhao", "target": "cpc", "label": "创建" },
+      { "source": "comintern", "target": "cpc", "label": "早期影响" },
+      { "source": "cpc", "target": "workers", "label": "组织动员" }
+    ]
+  },
+  "agents": {
+    "witness": {
+      "prompt": "以 1921 年普通青年工人的视角回应，使用文学化演绎，不冒充真实人物。",
+      "disclaimer": "文学化演绎：以下人物与感受为虚构，仅用于理解历史情境。",
+      "demo": {
+        "reply": "厂里的机器昼夜不停，我们却说不清明天的生活会不会好一点。听说有人在为工人办夜校，我想去听听。",
+        "citationNodeIds": []
+      }
+    },
+    "historian": {
+      "prompt": "依据事件来源解释建党背景、一大过程与历史意义，并为关键判断标注来源。",
+      "citationRequired": true,
+      "demo": {
+        "reply": "1921 年中共一大在上海开幕，最后一天转移到嘉兴南湖。大会通过党的第一个纲领，选举产生中央领导机构，标志着中国共产党正式成立。[S1][S2]",
+        "citationNodeIds": ["first-congress", "shanghai", "jiaxing", "cpc"]
+      }
+    }
+  },
+  "sources": [
+    { "id": "S1", "title": "中国共产党第一次全国代表大会", "author": "中共中央党史和文献研究院", "publisher": "中国共产党历史网", "year": 2021, "url": null, "accessed": "2026-11-27" },
+    { "id": "S2", "title": "中国共产党简史", "author": "本书编写组", "publisher": "人民出版社、中共党史出版社", "year": 2021, "url": null, "accessed": "2026-11-27" }
+  ]
+}
