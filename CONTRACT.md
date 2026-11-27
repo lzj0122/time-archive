@@ -1,8 +1,8 @@
 # Time Archive 接口契约
 
-版本：v0.1（空壳阶段）  
+版本：v0.2（内容接入阶段）  
 适用项目：`time-archive`  
-内容根目录：`data/events/`
+内容根目录：`src/data/events/`
 
 ## 1. 路由
 
@@ -10,17 +10,17 @@
 
 | 路由 | 页面 | 当前状态 |
 | --- | --- | --- |
-| `#/` | `HomeView` | 时间山脊、雪山、地图、进度灯占位 |
-| `#/event/:id` | `EventView` | 档案六区占位；`id` 取自路由参数 |
-| `#/summit` | `SummitView` | 登顶序列占位；后续由 6 灯全亮解锁 |
+| `#/` | `HomeView` | 时间山脊、雪山、地图、进度灯 |
+| `#/event/:id` | `EventView` | 档案八区；事实、信件、媒体、数据、图谱、双声回应、来源 |
+| `#/summit` | `SummitView` | 登顶序列；后续由 6 灯全亮解锁 |
 | `#/about` | `AboutView` | 后续步骤实现 |
-| `#/dev/content` | `ContentDevView` | 后续步骤实现 |
+| `#/dev/content` | `ContentDevView` | 六事件内容完整度与媒体缺失预览 |
 
 未知路由重定向到 `#/`。
 
 ## 2. Event JSON
 
-每个事件对应 `data/events/<id>.json`。组件不得写死事件内容。
+每个事件对应 `src/data/events/<id>.json`。组件不得写死事件内容。
 
 ```json
 {
@@ -45,45 +45,17 @@
     "disclaimer": "string，必须标明文学化演绎"
   },
   "character": {
-    "mode": "portrait | live2d",
-    "portrait": {
-      "src": "string",
-      "alt": "string",
-      "credit": "string",
-      "license": "string"
-    },
+    "mode": "none | portrait | live2d",
+    "portrait": "string | null",
     "modelPath": "string | null"
   },
   "media": {
-    "hero": {
-      "src": "string",
-      "alt": "string",
-      "credit": "string",
-      "license": "string"
-    },
-    "gallery": [
-      {
-        "src": "string",
-        "caption": "string",
-        "credit": "string",
-        "license": "string"
-      }
-    ],
-    "video": {
-      "source": "local",
-      "src": "string",
-      "poster": "string",
-      "subtitles": "string",
-      "credit": "string",
-      "license": "string"
-    }
+    "hero": "string，media.json 中的媒体 ID",
+    "gallery": ["string"],
+    "video": "string"
   },
   "audio": {
-    "ambient": {
-      "src": "string",
-      "credit": "string",
-      "license": "string"
-    }
+    "ambient": "string，media.json 中的媒体 ID"
   },
   "graph": {
     "nodes": [
@@ -105,7 +77,7 @@
   "data": [
     {
       "label": "string",
-      "value": "number",
+      "value": "number | string",
       "unit": "string",
       "year": "integer",
       "sourceId": "string，必须存在于 sources"
@@ -142,6 +114,14 @@
 - `graph.nodes[].id` 唯一；`graph.links` 的 `source` 和 `target` 必须存在。
 - 媒体、音频、肖像必须提供 `credit` 和 `license`；缺失素材使用明确的 `TODO` 标记，不编造来源。
 - 亲历者只能是虚构普通人，必须带文学化演绎免责声明；考据官必须引用 `sources`。
+
+### 媒体清单
+
+`src/data/media.json` 按事件 ID 分组。每个媒体项包含 `id`、`type`、`title`、`status`、`license`、`source`、`credit`；可用图片还包含 `localPath` 与 `caption`，缺失项必须包含 `reason`。
+
+- `status: "ready"`：允许在正式页面渲染。
+- `status: "missing"`：只显示“待补”和缺失原因，不渲染图片或播放器。
+- 图片加载失败时回退为“待补”，不显示破图。
 
 ## 3. 组件接口
 
