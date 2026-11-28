@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">1964 年第一颗原子弹爆炸成功主题示意</title>
+  <desc id="desc">以日期、地点和自力更生精神为主题的自制信息图，不是历史现场照片。</desc>
+  <rect width="1600" height="900" fill="#f4efe4"/>
+  <rect x="0" y="0" width="28" height="900" fill="#a33b2b"/>
+  <circle cx="1320" cy="170" r="250" fill="#15324a" opacity="0.06"/>
+  <circle cx="1320" cy="170" r="180" fill="none" stroke="#15324a" stroke-width="2" opacity="0.16"/>
+  <circle cx="1320" cy="170" r="110" fill="none" stroke="#a33b2b" stroke-width="3" opacity="0.28"/>
+  <text x="120" y="120" fill="#15324a" font-family="sans-serif" font-size="28" letter-spacing="8">TIME ARCHIVE · 1964</text>
+  <text x="120" y="280" fill="#15324a" font-family="serif" font-size="112" font-weight="700">1964 · 罗布泊</text>
+  <text x="124" y="370" fill="#a33b2b" font-family="serif" font-size="52">中国第一颗原子弹爆炸成功</text>
+  <line x1="124" y1="430" x2="1470" y2="430" stroke="#15324a" stroke-width="2" opacity="0.25"/>
+  <g font-family="sans-serif">
+    <rect x="124" y="500" width="400" height="210" rx="18" fill="#ffffff" opacity="0.72"/>
+    <rect x="554" y="500" width="400" height="210" rx="18" fill="#ffffff" opacity="0.72"/>
+    <rect x="984" y="500" width="486" height="210" rx="18" fill="#ffffff" opacity="0.72"/>
+    <text x="164" y="558" fill="#15324a" font-size="26" letter-spacing="4">日期</text>
+    <text x="164" y="644" fill="#15324a" font-family="serif" font-size="46" font-weight="700">10 月 16 日</text>
+    <text x="594" y="558" fill="#15324a" font-size="26" letter-spacing="4">地点</text>
+    <text x="594" y="644" fill="#15324a" font-family="serif" font-size="46" font-weight="700">新疆罗布泊</text>
+    <text x="1024" y="558" fill="#15324a" font-size="26" letter-spacing="4">精神</text>
+    <text x="1024" y="632" fill="#15324a" font-family="serif" font-size="38" font-weight="700">自力更生</text>
+    <text x="1024" y="684" fill="#a33b2b" font-family="serif" font-size="34">艰苦奋斗 · 大力协同</text>
+  </g>
+  <text x="124" y="806" fill="#15324a" font-family="sans-serif" font-size="26">依据：共产党员网转载新华社、央视新闻官方史料</text>
+  <text x="124" y="850" fill="#a33b2b" font-family="sans-serif" font-size="24">Time Archive 项目组自制 · 2026-11-29 · CC0（自制） · 示意，非历史现场照片</text>
+</svg>

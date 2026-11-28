@@ -183,37 +183,35 @@
     {
       "id": "1964-hero",
       "type": "image",
-      "title": "邓稼先主视觉",
+      "title": "1964 · 罗布泊（自制主题示意）",
       "status": "ready",
-      "license": "Public domain in China（摄影作品保护期已届满）",
-      "source": "https://commons.wikimedia.org/wiki/File:Deng_Jiaxian_1949.jpg",
-      "credit": "Unknown author；原始来源：National Museum of China；经 Wikimedia Commons",
-      "localPath": "/media/events/1964-deng-jiaxian.jpg",
-      "caption": "邓稼先（1949 年）。此照片拍摄于原子弹研制之前，用于呈现人物背景。",
-      "originalName": "Deng Jiaxian 1949.jpg"
+      "license": "CC0（自制）",
+      "source": "Time Archive 项目内自制（无外部素材）",
+      "credit": "Time Archive 项目组（AI 辅助绘制）；制作日期：2026-11-29",
+      "localPath": "/media/events/1964-hero-diagram.svg",
+      "caption": "1964 年 10 月 16 日第一颗原子弹爆炸成功主题示意；示意，非历史现场照片。"
     },
     {
       "id": "1964-gallery-1",
       "type": "image",
-      "title": "第一颗原子弹爆炸史料图",
-      "status": "missing",
-      "license": "待核实（仅接受 CC0/公版）",
-      "source": "待补充",
-      "credit": "待补充",
-      "caption": "待选：1964 年罗布泊试验相关公版史料。",
-      "reason": "尚未找到作者、来源与公版许可均可核验的试验现场图片。"
+      "title": "“两弹一星”研制进程（自制示意图）",
+      "status": "ready",
+      "license": "CC0（自制）",
+      "source": "Time Archive 项目内自制（无外部素材）",
+      "credit": "Time Archive 项目组（AI 辅助绘制）；制作日期：2026-11-29",
+      "localPath": "/media/events/1964-timeline-diagram.svg",
+      "caption": "依据官方史料绘制的研制进程示意；示意，非历史现场照片。"
     },
     {
       "id": "1964-gallery-2",
       "type": "image",
-      "title": "科研人员合影候选图",
-      "status": "missing",
-      "license": "待核实（仅接受 CC0/公版）",
-      "source": "https://commons.wikimedia.org/wiki/File:1972%E5%B9%B4%EF%BC%8C%E9%82%93%E7%A8%BC%E5%85%88%E3%80%81%E7%8E%8B%E6%89%BF%E4%B9%A6%E3%80%81%E6%9D%A8%E6%8C%AF%E5%AE%81%E5%92%8C%E5%BC%A0%E6%96%87%E8%A3%95%E5%9C%A8%E4%B8%AD%E5%9B%BD%E7%A7%91%E5%AD%A6%E9%99%A2%E7%9A%84%E5%90%88%E7%85%A7.png",
-      "credit": "待核实",
-      "localPath": "/media/events/1964-scientists-1972.jpg",
-      "caption": "1972 年邓稼先、王承书、杨振宁、张文裕在中国科学院的合影候选图。",
-      "reason": "检索结果出现公版模板，但完整作者与来源字段未核实；且照片摄于 1972 年，不能作为 1964 年试验现场图。"
+      "title": "协同攻关关系（自制示意图）",
+      "status": "ready",
+      "license": "CC0（自制）",
+      "source": "Time Archive 项目内自制（无外部素材）",
+      "credit": "Time Archive 项目组（AI 辅助绘制）；制作日期：2026-11-29",
+      "localPath": "/media/events/1964-collaboration-diagram.svg",
+      "caption": "科研人员、工程技术与管理人员和基地建设者协同攻关关系示意；示意，非历史现场照片。"
     },
     {
       "id": "1964-video",
