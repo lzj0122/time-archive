@@ -116,6 +116,7 @@ em {
 
 .brand {
   justify-self: start;
+  min-height: 44px;
   display: inline-flex;
   align-items: center;
   gap: 12px;
@@ -164,6 +165,7 @@ em {
 }
 
 .site-nav a {
+  min-height: 44px;
   padding: 8px 16px;
   border-radius: 999px;
   color: var(--site-muted);

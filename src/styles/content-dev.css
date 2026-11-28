@@ -147,6 +147,10 @@
 }
 
 .content-dev-card__footer a {
+  min-width: 44px;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
   color: var(--indigo);
   text-decoration: underline;
   text-underline-offset: 4px;
@@ -159,6 +163,8 @@
 }
 
 .content-dev-missing summary {
+  min-height: 44px;
+  display: list-item;
   cursor: pointer;
   color: var(--cinnabar-dark);
 }

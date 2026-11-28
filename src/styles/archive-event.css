@@ -110,7 +110,8 @@
 }
 
 .fact-source {
-  min-height: 28px;
+  min-width: 44px;
+  min-height: 44px;
   padding: 4px 8px;
   border: 1px solid var(--site-border);
   border-radius: 999px;
@@ -304,7 +305,10 @@
 }
 
 .source-list a {
-  display: inline-block;
+  min-width: 44px;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
   margin-top: 7px;
   color: var(--indigo);
   font-size: 10px;
@@ -420,7 +424,8 @@
 }
 
 .graph-node-list button {
-  min-height: 32px;
+  min-width: 44px;
+  min-height: 44px;
   padding: 5px 10px;
   border: 1px solid var(--site-border);
   border-radius: 999px;
