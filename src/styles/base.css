@@ -165,6 +165,7 @@ em {
 }
 
 .site-nav a {
+  min-width: 44px;
   min-height: 44px;
   padding: 8px 16px;
   border-radius: 999px;
