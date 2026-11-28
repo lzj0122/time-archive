@@ -4,7 +4,7 @@
   "title": "改革开放",
   "subtitle": "追赶",
   "summary": "党的十一届三中全会作出把党和国家工作中心转移到经济建设上来、实行改革开放的历史性决策。中国由此迈出新的发展步伐。",
-  "location": { "name": "北京 · 深圳", "lng": 116.4074, "lat": 39.9042 },
+  "location": { "name": "北京", "lng": 116.4074, "lat": 39.9042 },
   "facts": [
     { "text": "1978 年 12 月，党的十一届三中全会在北京召开。", "sourceId": "S1" },
     { "text": "全会作出把党和国家工作中心转移到经济建设上来、实行改革开放的历史性决策。", "sourceId": "S1" },
@@ -44,7 +44,7 @@
       { "source": "third-plenum", "target": "reform-opening", "label": "开启" },
       { "source": "reform-opening", "target": "agriculture", "label": "先行" },
       { "source": "xiaogang", "target": "agriculture", "label": "探索" },
-      { "source": "reform-opening", "target": "shenzhen", "label": "设立特区" },
+      { "source": "reform-opening", "target": "shenzhen", "label": "后续推进" },
       { "source": "reform-opening", "target": "market", "label": "激发" },
       { "source": "reform-opening", "target": "world", "label": "扩大" },
       { "source": "reform-opening", "target": "modernization", "label": "推动" }
@@ -64,12 +64,12 @@
       "citationRequired": true,
       "demo": {
         "reply": "1978 年 12 月，党的十一届三中全会作出把党和国家工作中心转移到经济建设上来、实行改革开放的历史性决策。改革从农村起步并逐步扩展到城市，对外开放不断扩大，深刻改变了中国的面貌。[S1][S2]",
-        "citationNodeIds": ["third-plenum", "reform-opening", "agriculture", "shenzhen"]
+        "citationNodeIds": ["third-plenum", "reform-opening", "agriculture"]
       }
     }
   },
   "sources": [
-    { "id": "S1", "title": "党的十一届三中全会实现伟大历史转折", "author": "中共中央党史和文献研究院", "publisher": "中国共产党历史网", "year": 2021, "url": null, "accessed": "2026-11-27" },
-    { "id": "S2", "title": "中国共产党简史", "author": "本书编写组", "publisher": "人民出版社、中共党史出版社", "year": 2021, "url": null, "accessed": "2026-11-27" }
+    { "id": "S1", "title": "党的十一届三中全会实现伟大历史转折", "author": "中共中央党史和文献研究院", "publisher": "中国共产党历史网", "year": 2021, "url": "https://cpc.people.com.cn/GB/64162/64168/64563/65371/4441896.html", "accessed": "2026-11-29" },
+    { "id": "S2", "title": "改革开放精神：“春天的故事”写在中国大地上", "author": "光明日报", "publisher": "共产党员网", "year": 2021, "url": "https://www.12371.cn/2021/01/13/ARTI1610501181792789.shtml", "accessed": "2026-11-29" }
   ]
 }
