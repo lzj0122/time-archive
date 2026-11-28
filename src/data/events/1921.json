@@ -6,9 +6,9 @@
   "summary": "在近代中国寻找出路的实践中，一批先进知识分子组织起来。中国共产党第一次全国代表大会，成为党的正式成立的重要标志。",
   "location": { "name": "上海 · 嘉兴", "lng": 121.4737, "lat": 31.2304 },
   "facts": [
-    { "text": "1921 年 7 月，中国共产党第一次全国代表大会在上海开幕。", "sourceId": "S1" },
+    { "text": "1921 年 7 月 23 日，中国共产党第一次全国代表大会在上海法租界望志路 106 号（今兴业路 76 号）开幕。", "sourceId": "S1" },
     { "text": "大会最后一天的会议转移到浙江嘉兴南湖的游船上继续举行。", "sourceId": "S1" },
-    { "text": "大会通过党的第一个纲领、选举产生中央领导机构，标志着中国共产党正式成立。", "sourceId": "S2" }
+    { "text": "大会通过党的第一个纲领和决议，选举产生中央局，宣告中国共产党正式成立。", "sourceId": "S2" }
   ],
   "letter": {
     "author": "周明（虚构）",
@@ -25,7 +25,7 @@
   },
   "audio": { "ambient": "1921-ambient" },
   "data": [
-    { "label": "中共一大开幕", "value": "7 月", "unit": "月", "year": 1921, "sourceId": "S1" },
+    { "label": "中共一大开幕", "value": "7 月 23 日", "unit": "", "year": 1921, "sourceId": "S1" },
     { "label": "一大代表", "value": "13", "unit": "名", "year": 1921, "sourceId": "S2" },
     { "label": "成立时全国党员", "value": "50 余", "unit": "名", "year": 1921, "sourceId": "S2" }
   ],
@@ -69,7 +69,7 @@
     }
   },
   "sources": [
-    { "id": "S1", "title": "中国共产党第一次全国代表大会", "author": "中共中央党史和文献研究院", "publisher": "中国共产党历史网", "year": 2021, "url": null, "accessed": "2026-11-27" },
-    { "id": "S2", "title": "中国共产党简史", "author": "本书编写组", "publisher": "人民出版社、中共党史出版社", "year": 2021, "url": null, "accessed": "2026-11-27" }
+    { "id": "S1", "title": "中国共产党第一次全国代表大会", "author": "中共中央党史和文献研究院", "publisher": "共产党员网", "year": 2021, "url": "https://www.12371.cn/special/lcddh/ddh1/", "accessed": "2026-11-28" },
+    { "id": "S2", "title": "中国共产党第一次全国代表大会通过的党纲（复制品）", "author": "中国国家博物馆", "publisher": "中国国家博物馆", "year": 2021, "url": "https://www.chnmuseum.cn/zp/zpml/gmww/202112/t20211214_253216.shtml", "accessed": "2026-11-28" }
   ]
 }
