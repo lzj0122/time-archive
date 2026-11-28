@@ -7,8 +7,8 @@
   "location": { "name": "北京", "lng": 116.4074, "lat": 39.9042 },
   "facts": [
     { "text": "1919 年巴黎和会期间，山东问题成为中方交涉的焦点，和会有关决定激起中国社会强烈不满。", "sourceId": "S1" },
-    { "text": "1919 年 5 月 4 日，北京学生举行集会游行，要求拒签和约、惩办亲日派官员。", "sourceId": "S1" },
-    { "text": "6 月初上海工人罢工后，运动中心由北京转移到上海，学生、工人和商人等更广泛群体参与其中。", "sourceId": "S2" }
+    { "text": "1919 年 5 月 4 日，北京大学等十几所学校的学生在天安门前集会示威，抗议巴黎和会拟将德国在山东的权益转让日本，并要求惩办亲日派官员。", "sourceId": "S1" },
+    { "text": "运动发展到六三阶段后，工人、商人等更广泛群体参与其中，成为全国范围的群众性爱国运动。", "sourceId": "S2" }
   ],
   "letter": {
     "author": "林岚（虚构）",
@@ -25,9 +25,9 @@
   },
   "audio": { "ambient": "1919-ambient" },
   "data": [
-    { "label": "北京参加集会游行的学生", "value": "3000 余", "unit": "人", "year": 1919, "sourceId": "S1" },
-    { "label": "上海工人罢工开始", "value": "6 月 5 日", "unit": "", "year": 1919, "sourceId": "S1" },
-    { "label": "中国代表拒签对德和约", "value": "6 月 28 日", "unit": "", "year": 1919, "sourceId": "S1" }
+    { "label": "北京参加集会游行的大学生", "value": "3000 多", "unit": "人", "year": 1919, "sourceId": "S2" },
+    { "label": "北京学生总罢课", "value": "5 月 5 日", "unit": "", "year": 1919, "sourceId": "S1" },
+    { "label": "中国参加巴黎和会的代表", "value": "拒签和约", "unit": "", "year": 1919, "sourceId": "S1" }
   ],
   "graph": {
     "nodes": [
@@ -70,7 +70,7 @@
     }
   },
   "sources": [
-    { "id": "S1", "title": "五四运动和马克思主义的传播", "author": "中共中央党史和文献研究院", "publisher": "中国共产党历史网", "year": 2021, "url": null, "accessed": "2026-11-27" },
-    { "id": "S2", "title": "中国近现代史纲要", "author": "本书编写组", "publisher": "高等教育出版社", "year": 2023, "url": null, "accessed": "2026-11-27" }
+    { "id": "S1", "title": "5月4日", "author": "中华人民共和国外交部", "publisher": "中华人民共和国外交部", "year": 2003, "url": "https://www.fmprc.gov.cn/web/ziliao_674904/historytoday_674971/200305/t20030504_9284558.shtml", "accessed": "2026-11-28" },
+    { "id": "S2", "title": "以青春之我成就青春中国——写在五四运动100周年之际", "author": "仲青平", "publisher": "共产党员网", "year": 2019, "url": "https://www.12371.cn/2019/04/23/ARTI1556006078519312.shtml", "accessed": "2026-11-28" }
   ]
 }
