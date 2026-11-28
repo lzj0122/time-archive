@@ -7,7 +7,7 @@
   "location": { "name": "北京", "lng": 116.4074, "lat": 39.9042 },
   "facts": [
     { "text": "2020 年 7 月 31 日，北斗三号全球卫星导航系统正式开通。", "sourceId": "S1" },
-    { "text": "北斗系统坚持自主创新，形成了从区域服务到全球服务的能力。", "sourceId": "S2" },
+    { "text": "北斗系统坚持自主创新，形成了从区域服务到全球服务的能力。", "sourceId": "S1" },
     { "text": "北斗服务已广泛应用于交通运输、农林渔业、防灾减灾等领域，并逐步走向全球。", "sourceId": "S2" }
   ],
   "letter": {
@@ -26,7 +26,7 @@
   "audio": { "ambient": "2020-ambient" },
   "data": [
     { "label": "北斗三号正式开通", "value": "7 月 31 日", "unit": "", "year": 2020, "sourceId": "S1" },
-    { "label": "全球系统组网卫星", "value": "30", "unit": "颗", "year": 2020, "sourceId": "S2" },
+    { "label": "全球系统组网卫星", "value": "30", "unit": "颗", "year": 2020, "sourceId": "S1" },
     { "label": "系统服务范围", "value": "全球", "unit": "", "year": 2020, "sourceId": "S2" }
   ],
   "graph": {
@@ -69,7 +69,7 @@
     }
   },
   "sources": [
-    { "id": "S1", "title": "北斗三号全球卫星导航系统正式开通", "author": "新华社", "publisher": "新华社", "year": 2020, "url": null, "accessed": "2026-11-27" },
-    { "id": "S2", "title": "新时代的中国北斗", "author": "中华人民共和国国务院新闻办公室", "publisher": "国务院新闻办公室", "year": 2022, "url": null, "accessed": "2026-11-27" }
+    { "id": "S1", "title": "弘扬新时代北斗精神 服务全球造福人类", "author": "人民日报", "publisher": "共产党员网", "year": 2021, "url": "https://www.12371.cn/2021/12/14/ARTI1639437131704666.shtml", "accessed": "2026-11-29" },
+    { "id": "S2", "title": "《新时代的中国北斗》白皮书发布 “北斗+气象”全面应用格局形成", "author": "中国气象报社", "publisher": "中国气象局", "year": 2022, "url": "https://www.cma.gov.cn/2011xwzx/2011xqxxw/zwfw/202211/t20221109_5170889.html", "accessed": "2026-11-29" }
   ]
 }

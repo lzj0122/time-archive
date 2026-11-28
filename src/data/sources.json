@@ -102,24 +102,21 @@
   "2020": [
     {
       "id": "S1",
-      "title": "北斗三号全球卫星导航系统正式开通",
-      "author": "新华社",
-      "publisher": "新华社",
-      "year": 2020,
-      "url": null,
-      "accessed": "2026-11-27",
-      "referenceUrls": [
-        "http://english.scio.gov.cn/pressroom/2019-12/27/content_75561879.htm"
-      ]
+      "title": "弘扬新时代北斗精神 服务全球造福人类",
+      "author": "人民日报",
+      "publisher": "共产党员网",
+      "year": 2021,
+      "url": "https://www.12371.cn/2021/12/14/ARTI1639437131704666.shtml",
+      "accessed": "2026-11-29"
     },
     {
       "id": "S2",
-      "title": "新时代的中国北斗",
-      "author": "中华人民共和国国务院新闻办公室",
-      "publisher": "国务院新闻办公室",
+      "title": "《新时代的中国北斗》白皮书发布 “北斗+气象”全面应用格局形成",
+      "author": "中国气象报社",
+      "publisher": "中国气象局",
       "year": 2022,
-      "url": null,
-      "accessed": "2026-11-27"
+      "url": "https://www.cma.gov.cn/2011xwzx/2011xqxxw/zwfw/202211/t20221109_5170889.html",
+      "accessed": "2026-11-29"
     }
   ]
 }
