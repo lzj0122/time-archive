@@ -19,7 +19,7 @@ function go(path) {
     <div class="summit-copy">
       <p class="eyebrow">SUMMIT / SCENE STUDY</p>
       <h1 id="summit-title">山顶之外，<br /><em>还有更高的山。</em></h1>
-      <p class="page-lead">镜头越过六盏灯，第二座山从雾里升起。这里是登顶序列的场景预演，当代数据将在内容接入后出现。</p>
+      <p class="page-lead">镜头越过六盏灯，第二座山从雾里升起。六段历史依次点亮，回望来路，也继续向更高的山前行。</p>
       <div class="summit-lights" aria-label="六盏山脊灯">
         <span v-for="year in years" :key="year"><i></i>{{ year }}</span>
       </div>
