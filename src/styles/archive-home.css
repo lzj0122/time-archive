@@ -588,6 +588,11 @@
   z-index: 10;
   top: 22px;
   right: 26px;
+  min-width: 44px;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   padding: 6px 10px;
   color: rgba(var(--paper-rgb), .58);
   background: rgba(8, 24, 39, .32);

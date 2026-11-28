@@ -42,24 +42,21 @@
   "1949": [
     {
       "id": "S1",
-      "title": "中华人民共和国中央人民政府成立",
-      "author": "中共中央党史和文献研究院",
-      "publisher": "中国共产党历史网",
+      "title": "1949年10月1日 中华人民共和国开国大典",
+      "author": "中国共产党历史网",
+      "publisher": "人民网－中国共产党新闻网",
       "year": 2021,
-      "url": null,
-      "accessed": "2026-11-27",
-      "referenceUrls": [
-        "https://cpc.people.com.cn/BIG5/64162/64165/70486/70487/4792020.html"
-      ]
+      "url": "https://cpc.people.com.cn/BIG5/64162/64165/70486/70487/4792020.html",
+      "accessed": "2026-11-28"
     },
     {
       "id": "S2",
-      "title": "中国近现代史纲要",
-      "author": "本书编写组",
-      "publisher": "高等教育出版社",
-      "year": 2023,
-      "url": null,
-      "accessed": "2026-11-27"
+      "title": "【党史百年·天天读】9月21日",
+      "author": "共产党员网",
+      "publisher": "共产党员网",
+      "year": 2021,
+      "url": "https://www.12371.cn/2021/09/17/ARTI1631862248427262.shtml",
+      "accessed": "2026-11-28"
     }
   ],
   "1964": [
